@@ -1,0 +1,93 @@
+<body> 
+  <div class="left">
+   <div class="sidebar">
+    <ul>
+      <li>
+          <a href="#" class="active">
+              <span class="icon"><i class="fa fa-home"></i></span>
+              <span class="item">Home</span>
+          </a>
+      </li>
+      <li>
+          <a href="#">
+              <span class="icon"><i class="fa fa-twitter"></i></span>
+              <span class="item">Posts</span>
+          </a>
+      </li>
+      <li>
+          <a href="#">
+              <span class="icon"><i class="fa fa-instagram"></i></span>
+              <span class="item">Comments</span>
+          </a>
+      </li>
+      <li>
+          <a href="#">
+              <span class="icon"><i class="fa fa-linkedin"></i></span>
+              <span class="item">Albums</span>
+          </a>
+      </li>
+      <li>
+          <a href="#">
+              <span class="icon"><i class="fa fa-telegram"></i></span>
+              <span class="item">Photos</span>
+          </a>
+      </li>
+      <li>
+          <a href="#">
+              <span class="icon"><i class="fa fa-gitlab"></i></span>
+              <span class="item">Todos</span>
+          </a>
+      </li>
+  </ul>
+</div>  
+
+   </div>
+
+  <div class="container">
+     <div class="card" *ngFor="let i of data"> 
+       <div class="imgBx">
+         <img src="../assets/men2.jpg"/>
+       </div>
+       <div class="content">
+         <div class="details">
+           <h2>{{ i.id +' '+ i.name }}</h2><span>{{ i.email}}</span>
+           <!-- <div class="socialBtn">
+             <div class="example-button-row">
+               <a mat-raised-button color="primary" style="text-decoration: none;" href="{{ i.fb }}" target="_blank" rel="noopener noreferrer">Facebook</a>
+               <a mat-raised-button color="accent" style="text-decoration: none;" href="{{ i.twitter }}" target="_blank" rel="noopener noreferrer">Twitter</a>
+               <a mat-raised-button color="warn" style="text-decoration: none;" href="{{ i.linkedIn }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+             </div>
+           </div> -->
+         </div>
+       </div>
+     </div>
+   </div>
+ </body>
+      <!-- <div class="training-items">
+          <img src="..\assets\men2.jpg" height="256px" width="256px">
+          <h3>Dinnu</h3>
+          <p>Hey dude!</p>
+          <a mat-raised-button href="https://www.twitter.com/" target="_blank">Twitter</a><br><br>
+          <a mat-raised-button href="https://www.facebook.com/" target="_blank" color="primary">fb</a><br><br>
+          <a mat-raised-button href="https://in.linkedin.com/" target="_blank" color="accent">LinkedIn</a>
+              
+      </div>
+      <div class="training-items">
+          <img src="..\assets\lady1.jpg" height="256px" width="256px">
+          <h3>Sotta</h3>
+          <p>Boo</p>
+          <a mat-raised-button href="https://www.twitter.com/" target="_blank">Twitter</a><br><br>
+          <a mat-raised-button href="https://www.facebook.com/" target="_blank" color="primary">fb</a><br><br>
+          <a mat-raised-button href="https://in.linkedin.com/" target="_blank" color="accent">LinkedIn</a>
+              
+      </div>
+      <div class="training-items"> 
+          <img src="..\assets\men2.jpg" height="256px" width="256px">
+          <h3>Alan</h3>
+          <p>Get lost! </p>
+          <a mat-raised-button href="https://www.twitter.com/" target="_blank">Twitter</a><br><br>
+          <a mat-raised-button href="https://www.facebook.com/" target="_blank" color="primary">fb</a><br><br>
+          <a mat-raised-button href="https://in.linkedin.com/" target="_blank" color="accent">LinkedIn</a>
+              
+      </div>
+-->    
